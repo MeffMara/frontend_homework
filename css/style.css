@@ -1,34 +1,42 @@
-body{
-  width: 700px;
-  margin: auto;
-  padding-right: 45px;}
+/*reset*/
 
-.wrapper{
-text-align: center;}
-
-.work,
-.dream {
-  width: 300px;
+* {
+  margin: 0;
+  padding: 0;
+}
+/* */
+body {
+  width: 960px;
   margin: 0 auto;
-  text-align: center;}
+  }
+/* header */
 
-.list-style{
-  width: 300px;
-  margin: auto;}
-
-li{
-  width: 300px;
-  margin: auto;
-  list-style-position: outside;
-  text-align: left;}
-
-.info {
-  width: 300px;
-  margin: 0 auto;
+.header {
+  padding: 25px;
+  text-align: center;
 }
 
+/*content contacts footer position */
+
+.content,
+.contacts,
 .footer {
-  width: 300px;
-  text-align: center;
+  width: 600px;
   margin: 0 auto;
+  padding: 15px;
+  border-top: 1px solid gray;
+}
+
+/*content contacts footer "p" style */
+
+.content p,
+.contacts p,
+.footer p{
+  padding: 10px;
+}
+
+/* list style*/
+li {
+  list-style-position: inside;
+  text-align: left;
 }
